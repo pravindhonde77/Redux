@@ -24,7 +24,7 @@ const MusicRecords = () => {
 const Wrapper = styled.div`
    border:${({ color }) => `2px solid ${color}`};
    display:flex;
-   height:100vh;
+   height:auto;
 `;
 const WrapperFilterSort = styled.div`
 width:200px;

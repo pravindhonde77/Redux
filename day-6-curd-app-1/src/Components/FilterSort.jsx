@@ -79,19 +79,19 @@ const FilterSort = () => {
 
 
             <h2>Sort</h2>
-           
-                <div onChange={handleSortBy}>
-                    <div>
-                        <input type="radio" value="asc" name="sortBy"
-                            defaultChecked={sortBy === "asc"} />
-                        <label>Ascending</label>
-                    </div>
 
-                    <div>
-                        <input type="radio" value="desc" name="sortBy"
-                            defaultChecked={sortBy === "desc"} />
-                        <label>Descending</label>
-                    </div>
+            <div onChange={handleSortBy}>
+                <div>
+                    <input type="radio" value="asc" name="sortBy"
+                        defaultChecked={sortBy === "asc"} />
+                    <label>Ascending</label>
+                </div>
+
+                <div>
+                    <input type="radio" value="desc" name="sortBy"
+                        defaultChecked={sortBy === "desc"} />
+                    <label>Descending</label>
+                </div>
             </div>
         </div>
     )
